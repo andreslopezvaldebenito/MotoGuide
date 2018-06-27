@@ -7,21 +7,32 @@
     <!-- Bootstrap style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>MOTO GUIDE v1.0</title>
+    <title>MOTO GUIDE Revision</title>
 </head>
 <body>
     <!-- begin menu -->
-    <?php include('./botones/menu.php');?>
+    <?php include('./botones/menu3.php');?>
     <!-- end menu -->
     
-	<div class="container">
-		<h2>Bienvenido al sitio n°1 en nbusqueda de accesorios de motocicletas en la ciudad de Los Angeles</h2>
-		
+	 <div class="container">
+	 <h2 class="mt-5 text-uppercase">Revisar</h2>
+        <form action="./revision.php" method="post">
+			
+			
+			
+			</br></br></br>
+			<div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-outline-primary">Buscar</button>
+                    <a href="./administrador.php" class="btn btn-outline-danger">Volver</a>
+                </div>
+            </div>	
+		</form>
 	</div>
-		
 </br></br></br>
 	<!-- begin mensaje -->
     <?php include('./botones/submenu.php');?>
     <!-- end mensaje -->
+
 </body>
 </html>

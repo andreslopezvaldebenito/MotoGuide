@@ -84,10 +84,10 @@
                 </div>
             </div>
         </form>
-
+	</div>
 </br></br></br>
 	<!-- begin mensaje -->
-    <?php include('./botones/mensaje.php');?>
+    <?php include('./botones/submenu.php');?>
     <!-- end mensaje -->
 
 </body>

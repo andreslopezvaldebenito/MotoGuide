@@ -16,7 +16,7 @@
     
 	 <div class="container">
 	 <h2 class="mt-5 text-uppercase">Ingresar</h2>
-        <form action="./registro.php" method="post">
+        <form action="./ingreso.php" method="post">
 			<div class="form-group row">
                 <label for="Nombre de Usuario" class="col-sm-2 col-form-label">Nombre de Usuario</label>
                 <div class="col-sm-10">
@@ -36,11 +36,24 @@
                 </div>
             </div>
         </form>
-
+	</div>
 </br></br></br>
 	<!-- begin mensaje -->
-    <?php include('./botones/mensaje.php');?>
+    <?php include('./botones/submenu.php');?>
     <!-- end mensaje -->
 
 </body>
+
+<body>
+	<div class="col-sm-10">
+		<a class="navbar-brand" href="./busqueda.php">Cliente</a>
+		<a class="navbar-brand" href="./administrador.php">Administrador</a>
+	</div>
+
+
+</body>
+
+
+
+
 </html>
