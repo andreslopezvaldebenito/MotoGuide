@@ -1,0 +1,7 @@
+$ cd _________				*/buscar y direccionar la carpeta de archivos/*
+$ git init 					*/para crear el repositorio local/*
+$ git add _____.php			*/para ingtresar los archivos nuevos al repositorio, esto se hace de uno en uno/*
+$ git status				*/para ver los archivos agregados/*
+$ git commit -m "____"		*/para agregar el comentario a la actualizacion/*
+$ git remote add ______ https://github.com/andreslopezvaldebenito/MotoGuide.git  	*/para enviar el repositorio local a la nube del repositorio global/*
+$ git push -u _____ master 	*/para aprobar el envio del repositorio local al repositorio global/*

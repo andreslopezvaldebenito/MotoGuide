@@ -18,10 +18,15 @@
 		<h2>Bienvenido al sitio n°1 en nbusqueda de accesorios de motocicletas en la ciudad de Los Angeles</h2>
 		
 	</div>
-		
-</br></br></br>
-	<!-- begin mensaje -->
-    <?php include('./botones/submenu.php');?>
-    <!-- end mensaje -->
+</body>
+<body>
+	<footer>
+		<div class="form-group">
+			<div class="col-lg-offset-5 col-lg-3">
+				<p>Andres Lopez - Trabajo Final de Software</p>
+			</div>
+		</div>	
+			
+	</footer>
 </body>
 </html>

@@ -24,9 +24,9 @@
                 </div>
             </div>
 			<div class="form-group row">
-                <label for="Password" class="col-sm-2 col-form-label">Password</label>
+                <label for="Password" class="col-sm-2 col-form-label">Contraseña</label>
                 <div class="col-sm-10">
-                    <input type="int" class="form-control" id="Password" name="Password" <!--value="<!--?php echo $Password;?-->">
+                    <input type="password" class="form-control" id="Password" name="Password" <!--value="<!--?php echo $Password;?-->">
                 </div>
             </div>
             <div class="form-group row">
@@ -37,11 +37,6 @@
             </div>
         </form>
 	</div>
-</br></br></br>
-	<!-- begin mensaje -->
-    <?php include('./botones/submenu.php');?>
-    <!-- end mensaje -->
-
 </body>
 
 <body>

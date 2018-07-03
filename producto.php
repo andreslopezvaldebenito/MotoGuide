@@ -15,7 +15,7 @@
     <!-- end menu -->
     
 	 <div class="container">
-	 <h2 class="mt-5 text-uppercase">Productos</h2>
+	 <h2 class="mt-5 text-uppercase">Administrar Producto</h2>
         <form action="./producto.php" method="post">
 			
 			
@@ -30,10 +30,5 @@
             </div>	
         </form>
 	</div>
-</br></br></br>
-	<!-- begin mensaje -->
-    <?php include('./botones/submenu.php');?>
-    <!-- end mensaje -->
-
 </body>
 </html>

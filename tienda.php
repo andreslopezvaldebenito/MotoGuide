@@ -7,7 +7,7 @@
     <!-- Bootstrap style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>MOTO GUIDE Revision</title>
+    <title>MOTO GUIDE Producto</title>
 </head>
 <body>
     <!-- begin menu -->
@@ -15,8 +15,9 @@
     <!-- end menu -->
     
 	 <div class="container">
-	 <h2 class="mt-5 text-uppercase">Administrar Mensajes</h2>
-        <form action="./revision.php" method="post">
+	 <h2 class="mt-5 text-uppercase">Administrar Tiendas</h2>
+        <form action="./producto.php" method="post">
+			
 			
 			
 			
@@ -27,7 +28,7 @@
                     <a href="./administrador.php" class="btn btn-outline-danger">Volver</a>
                 </div>
             </div>	
-		</form>
+        </form>
 	</div>
 </body>
 </html>

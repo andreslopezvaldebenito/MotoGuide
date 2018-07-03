@@ -18,33 +18,39 @@
 	 <h2 class="mt-5 text-uppercase">Registro Usuario</h2>
         <form action="./registro.php" method="post">
             <div class="form-group row">
-                <label for="Nombre de Usuario" class="col-sm-2 col-form-label">Nombre de Usuario</label>
+                <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
                 <div class="col-sm-10">
-                    <input type="int" class="form-control" id="Nombre de Usuario" name="Nombre de Usuario" <!--value="<!--?php echo $Nombre de Usuario;?-->">
+                    <input type="text" class="form-control" id="nombre" name="nombre" <!--value="<!--?php echo $nombre;?-->">
                 </div>
             </div>
 			<div class="form-group row">
-                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <label for="apellidos" class="col-sm-2 col-form-label">Apellidos</label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="email" name="email" <!--value="<!--?php echo $email;?-->">
+                    <input type="text" class="form-control" id="apellidos" name="apellidos" <!--value="<!--?php echo $apellidos;?-->">
                 </div>
             </div>
 			<div class="form-group row">
-                <label for="Password" class="col-sm-2 col-form-label">Contraseña</label>
+                <label for="Direccion" class="col-sm-2 col-form-label">Direccion</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="Password" name="Password" <!--value="<!--?php echo $Password;?-->">
+                    <input type="int" class="form-control" id="Direccion" name="Direccion" <!--value="<!--?php echo $Direccion;?-->">
                 </div>
             </div>
 			<div class="form-group row">
-                <label for="Password" class="col-sm-2 col-form-label">Repita Contraseña</label>
+                <label for="Ciudad" class="col-sm-2 col-form-label">Ciudad</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="Password" name="Password" <!--value="<!--?php echo $Password;?-->">
+                    <input type="int" class="form-control" id="Ciudad" name="Ciudad" <!--value="<!--?php echo $Ciudad;?-->">
+                </div>
+            </div>
+			<div class="form-group row">
+                <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+                <div class="col-sm-10">
+                    <input type="int" class="form-control" id="telefono" name="telefono" <!--value="<!--?php echo $telefono;?-->">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-sm-10">
-                    <a href="./registro2.php" class="btn btn-outline-primary">Siguiente</a>
-                    <a href="./index.php" class="btn btn-outline-danger">Volver</a>
+                    <button type="submit" class="btn btn-outline-primary">Guardar</button>
+                    <a href="./registro.php" class="btn btn-outline-danger">Volver</a>
                 </div>
             </div>
         </form>

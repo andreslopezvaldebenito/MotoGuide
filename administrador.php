@@ -11,14 +11,17 @@
 </head>
 <body>
     <!-- begin menu -->
-    <?php include('./botones/menu3.php');?>
+    <?php include('./botones/menu2.php');?>
     <!-- end menu -->
     
 	 <div class="container">
-	 <h2 class="mt-5 text-uppercase">Administrar</h2>
+	 <h2 class="mt-5 text-uppercase">Administrador</h2>
         <form action="./administrador.php" method="post">
 			<div class="form-group row">
                 <a class="navbar-brand" href="./producto.php">Administrar Producto</a>
+            </div>
+			<div class="form-group row">
+                <a class="navbar-brand" href="./tienda.php">Administrar Tiendas</a>
             </div>
 			<div class="form-group row">
                 <a class="navbar-brand" href="./usuario.php">Administrar Usuarios</a>
@@ -28,10 +31,6 @@
             </div>
         </form>
 	</div>
-</br></br></br>
-	<!-- begin mensaje -->
-    <?php include('./botones/submenu.php');?>
-    <!-- end mensaje -->
 
 </body>
 </html>
