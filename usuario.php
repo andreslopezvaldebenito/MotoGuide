@@ -1,4 +1,9 @@
 <?php
+
+/*
+hola121331
+*/
+
 require_once('config/db_connect.php');
 
 if (isset($_GET['msg'])) {
@@ -26,8 +31,8 @@ if (isset($_GET['msg'])) {
 
 $conexion = connect();
 $sql = 'SELECT * FROM usuarios';
-/* 
-mysqli_query($link, $sql): realiza una consulta a la base de datos. Retorna: 
+/*
+mysqli_query($link, $sql): realiza una consulta a la base de datos. Retorna:
   - objeto mysqli_result() de resultados obtenidos a partir de la consulta.
   - FALSE en caso de error.
   - TRUE en caso de exito de otra consulta sin retorno de datos.
@@ -50,16 +55,16 @@ $result = mysqli_query($conexion, $sql);
     <!-- begin menu -->
     <?php include('./botones/menu3.php');?>
     <!-- end menu -->
-    
+
 	 <div class="container">
 		<h2 class="mt-5 text-uppercase">Administrar Usuarios</h2>
-			
-	
+
+
       <?php
       if (isset($msg)) {
         echo $msg;
       }
-      
+
       if (mysqli_num_rows($result) > 0) {
         # crear tabla
         echo '<table class="table table-sm">';
@@ -79,7 +84,7 @@ $result = mysqli_query($conexion, $sql);
         echo '</tr>';
         echo '</thead>';
         echo '<tbody>';
-        /*  
+        /*
         Imprimir los resultados de la consulta.
           - mysqli_fetch_assoc(): obtiene una fila de resultado como un array asociativo.
         */
@@ -88,7 +93,7 @@ $result = mysqli_query($conexion, $sql);
           echo '<tr>';
           echo '<td>' . $i++ . '</td>';
           echo '<td>' . $row['nom_usuario'] . '</td>';
-          echo '<td>' . $row['email'] . '</td>'; 
+          echo '<td>' . $row['email'] . '</td>';
           echo '<td>' . $row['contrasena'] . '</td>';
           echo '<td>' . $row['nombre'] . '</td>';
           echo '<td>' . $row['apellidos'] . '</td>';
@@ -107,13 +112,13 @@ $result = mysqli_query($conexion, $sql);
       }
       mysqli_close($conexion);
       ?>
-      
+
 		<div class="mt-4 mb-4">
 			<a href="agregar.php" class="btn btn-outline-primary">Agregar</a>
 			<a href="./administrador.php" class="btn btn-outline-danger">Volver</a>
 		</div>
-		
-    </div>  
+
+    </div>
     </div>
 </body>
 </html>
